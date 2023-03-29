@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desire Solar Technology</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./asset/css/aos.css">
+    <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./asset/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body data-bs-spy="scroll" data-bs-target="navbar">
+
+    <header>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container flex-lg-column">
+                <a class="navbar-brand mb-lg-4 mx-lg-1" href="#">
+                    <img title="This is Desire Solar Technology Logo" class="logo d-block d-lg-none" src="./asset/image/solarLogo.png" alt="Mykeall Logo">
+                    
+                    <!-- <span class="h3 d-block d-lg-none font-weight-bold">MYKEALL</span> -->
+                    <img class="happy d-lg-block d-none" src="./asset/image/solarLogo.png" alt="man">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav flex-lg-column ms-auto text-lg-center">
+                    <!-- <li class="nav-item">
+                      <a class="nav-link active" href="#">Home</a>
+                    </li> -->
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#work">Price</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+    
+    
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form> -->
+                </ul>
+                </div>
+    
+            </div>
+          </nav>
+          
+          <!-- LOGO -->
+          <img title="This is Mykeall Data Sub Service Logo" class="logo d-lg-block d-none" src="./asset/images/WhatsApp Image 2023-02-23 at 4.15.08 PM.jpeg" alt="Mykeall Logo">
+          <!-- LOGO -->
+
+        <!-- NAVBAR -->
+
+    </header>
+
+
+
+
+
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper" class="">
+
+        <!-- HOME -->
+        <section id="home" class="full-height px-lg-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                      <!-- <marquee class="welcome bg-warning text-bg-info" behavior="" direction="right"><h5 class="align-content-center justify-content-center w-20 bg-warning px-2 text-bg-info">Welcome to</h5>
+                        <div class="wel"></div>
+                      </marquee> -->
+                        <h5 class="welcome align-content-center justify-content-center w-20 bg-warning px-2 text-bg-info" data-aos="zoom-in-down"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" data-aos-duration="500">Welcome to</h5>
+                        <div data-aos="fade-down"
+                        data-aos-easing="linear">
+                        <h1 class="display-4 fw-bold">MYKEALL<br><h3><span class="text-brand">DATA SUBSCRIPTION</span></h3><cite><h3 class="">SERVICES</h3></cite></h1>
+
+                        </div>
+                        <p class="lead mb mt-2" data-aos="zoom-in-up" data-aos-delay="300">We offer instant recharge of airtime, databundle, cable TV subscriptions (DSTV, GOTV, and STARTTIMES) etc</p>
+                        <!-- <p class="lead mb mt-2" data-aos="zoom-in-up" data-aos-delay="300">where you can purcase Data, Airtime, Utility bills like cable Subscription e.g Dstv, Gotv, Startime etc.</p> -->
+
+                        <div data-aos="fade-up" data-aos-delay="600">
+                          <a href="#work" class="btn btn-brand me-3">Check Price List</a>
+                          <!-- <a href="#work" class="btn btn-brand me-3">Explore My Work</a> -->
+                          <!-- <a class="link-custom text-decoration-none" href="https://wa.me/07017813445"><i class="lab la-whatsapp"></i>Call: (+234)-70178-13445</a> -->
+                          <a class="link-custom text-decoration-none" href="tel:07017813445">Click to call a customer support rep.</a>
+                          <!-- <a class="link-custom text-decoration-none" href="#">Call: (+234)-70178-13445</a> -->
+
+                        </div>
+                        <!-- <a href="#" class="link-custom text-decoration-none">Call: (+234) 70178 13445</a> -->
+                        <!-- <h1>I'M A <span class="text-brand">UI/UX DESIGNER</span> FROM OGUN STATE, NIGERIA</h1>
+                        <p>I am Qudus, And I craft high-performing and delightful experiences tailored and conversion-focused</p> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" data-aos="zoom-out-left" data-aos-delay="900">
+
+                      <div class="call">
+                        <img src="./asset/images/call-20221130_09_06_MOB.png" alt="">
+
+                      </div>
+                        
+                    </div>
+        </section>
+        <!-- //HOME -->
+
+
+
+        <!-- SERVICES -->
+
+        <section class="full-height px-lg-5 m-0" id="services">
+          <div class="container">
+
+            <div class="row gy-4 pb-4">
+              <div class="col-lg-8" data-aos="fade-down" data-aos-delay="300">
+                <h6 class="text-brand">SERVICES</h6>
+                <h1>Services That We Offer</h1>
+                <!-- <h1>Services That I Provide</h1> -->
+              </div>
+            </div>
+
+            <div class="row">
+
+              <!-- DATA -->
+              <div class="col-lg-4" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="d-flex">
+                    <div class="iconbox">
+                      <i class="las la-wifi"></i>
+                    </div>
+                    <h5 class="m-2">Data</h5>
+
+                  </div>
+                  <p>Stay connected with the internet. Buy cheap data on Mykeall app. Get cheapest data bundles for all networks.</p>
+                  <a href="https://wa.me/2347017813445" class="btn btn-brand me-3 px-2">Buy Internet Data</a>
+                  <!--<div class="iconbox">
+                      <i class="las la-feather"></i>
+                    </div>
+                     <h4 class="mt-4 mb-2">UX Design</h4>
+                  <p>I craft high-performing and delightful experiences tailored and conversion-focused</p> -->
+                  <a class="link-custom text-decoration-none" data-bs-target="#row" data-bs-toggle="collapse" href="#" onclick="document.getElementById('data2').style.display='block'">Read More</a>
+                  <p id="row" style="display: none;">
+                    Making online recharge cheap and easy to buy at all time of the day.
+
+                  </p> 
+                </div>
+              </div>
+
+
+              <!-- AIRTIME -->
+              <div class="col-lg-4" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="200">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="d-flex">
+                    <div class="iconbox">
+                      <i class="las la-phone-volume"></i>
+                    </div>
+                    <h5 class="m-2">Airtime</h5>
+
+                  </div>
+                  <p>Stay connected with people around. We offer VTU airtime for MTN, Glo, Airtel and 9mobile.</p>
+                  <a href="https://wa.me/2347017813445" class="btn btn-brand me-3">Buy Airtime</a>
+                  <!-- <div class="iconbox">
+                      <i class="las la-pencil-ruler"></i>
+                    </div>
+                     <h4 class="mt-4 mb-2">Branding</h4>
+                  <p>I craft high-performing and delightful experiences tailored and conversion-focused</p> -->
+                  <a class="link-custom text-decoration-none" href="#">Read More</a>
+                </div>
+              </div>
+
+              <!-- CABLE SUBSCRIPTION -->
+              <div class="col-lg-4" data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-delay="600">
+                <div class="service p-4 bg-base rounded-4 shadow-effect">
+                  <div class="d-flex">
+                    <div class="iconbox">
+                      <i class="las la-tv"></i>
+                    </div>
+                    <h5 class="m-2">Cable Subscription</h5>
+
+                  </div>
+                  <p>Don’t miss that TV programme. Subscribe your Cable TV (DSTv, GOTv and Startimes) at the cheapest price and get instant activation.</p>
+                  <a href="https://wa.me/2347017813445" class="btn btn-brand me-2 px-2">Subscribe Cable TV</a>
+                  <!-- <div class="iconbox">
+                      <i class="las la-laptop-code"></i>
+                    </div>
+                     <h4 class="mt-4 mb-2">Web Designing</h4>
+                  <p>I craft high-performing and delightful experiences tailored and conversion-focused</p> -->
+                  <a class="link-custom text-decoration-none" href="#">Read More</a>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </section>
+        <!-- //SERVICES -->
+
+
+        
+        <!-- PRICE -->
+
+        <section class="full-height px-lg-5 bg-dark" id="work">
+          <div class="container">
+
+            <div class="row pb-4">
+              <div class="col-lg-8" data-aos="fade-down" data-aos-delay="300">
+                <h6 class="text-brand">Price</h6>
+                <h1 data-aos="fade-up" data-aos-delay="400">Below Are The Price List</h1>
+                <!-- <h6 class="text-brand">WORK</h6>
+                <h1>My Recent Project</h1> -->
+              </div>
+            </div>
+
+            <div class="row gy-4 mx-auto">
+
+              <!-- CARD -->
+              <!-- MTN -->
+              <div class="col-md-6" >
+                <div class="card-custom">
+
+
+                  <!-- <div class="card-custom rounded-4 bg-base shadow-effect">
+                    <div class="card-custom-image rounded-4">
+                      <img class="rounded-4" src="asset/images/excited-african-american-millennial-male-260nw-1437938291.webp" alt="">
+                    </div>
+                    <div class="card-custom-content p-4">
+                      <h4>Startup Landing Page</h4>
+                      <p>Innovation that exceeds expectations, Astra is a true template equiped with all the elements you could ever need to put together</p>
+                      <a class="link-custom" href="#">Read More</a>
+                    </div>
+                  </div> -->
+
+
+                  <div class="d-flex">
+                    <div class="network">
+                      <img src="./asset/images/mtn.png" alt="">
+                    </div>
+                    <h5 class="m-2">MTN</h5>
+
+                  </div>
+
+                  <div class="table bg-dark my-3 w-50" data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" style="border: solid yellow; box-shadow: -4px 4px 4px yellow;">
+
+                    <div>
+                      <tbody>
+                        <table class="th m-2 mx-auto">
+                          <thead class="thead-light">
+                            <tr>
+                              <th class="th">
+                                Data Plan
+                              </th>
+                              <th>Amount</th>
+                            </tr>
+                          </thead>
+    
+                          <tbody class="bg-dark" style="color: yellow;">
+                            <tr>
+                              <td>500MB</td>
+                              <td>#150</td>
+                            </tr>
+  
+                            <tr>
+                              <td>1GB</td>
+                              <td>#300</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>2GB</td>
+                              <td>#600</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>5GB</td>
+                              <td>#1,400</td>
+                            </tr>
+  
+                            <tr>
+                              <td>10GB</td>
+                              <td>#2,800</td>
+                            </tr>
+                          </tbody>
+                        </table>
+  
+                      </tbody>
+                    </div>
+                    <a href="https://wa.me/2347017813445" class="btn m-3 px-2 bg-light card-custom-data">Purchase Now</a>
+                  </div>
+                </div>
+              </div>  
+
+
+              <!-- 9MOBILE -->
+              <div class="col-md-6" >
+                <div class="card-custom">
+                  <div class="d-flex">
+                    <div class="network">
+                      <img src="./asset/images/9mobile.png" alt="">
+                    </div>
+                    <h5 class="m-2">9MOBILE</h5>
+
+                  </div>
+
+                  <div class="table bg-dark my-3 w-50" data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" style="border: solid yellow; box-shadow: -4px 4px 4px yellow;">
+
+                    <div>
+                      <tbody>
+                        <table class="th m-2 mx-auto">
+                          <thead class="thead-light">
+                            <tr>
+                              <th class="th">
+                                Data Plan
+                              </th>
+                              <th>Amount</th>
+                            </tr>
+                          </thead>
+    
+                          <tbody class="bg-dark" style="color: yellow;">
+                            <tr>
+                              <td>500MB</td>
+                              <td>#500</td>
+                            </tr>
+  
+                            <tr>
+                              <td>1.5GB</td>
+                              <td>#1,000</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>2GB</td>
+                              <td>#1,200</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>3GB</td>
+                              <td>#1,500</td>
+                            </tr>
+  
+                            <tr>
+                              <td>11GB</td>
+                              <td>#4,000</td>
+                            </tr>
+                          </tbody>
+                        </table>
+  
+                      </tbody>
+                    </div>
+                    <a href="https://wa.me/2347017813445" class="btn m-2 px-2 bg-light card-custom-data">Purchase Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- AIRTEL -->
+              <div class="col-md-6" >
+                <div class="card-custom">
+                  <div class="d-flex">
+                    <div class="network">
+                      <img src="./asset/images/airtel.png" alt="">
+                    </div>
+                    <h5 class="m-2">AIRTEL</h5>
+
+                  </div>
+
+                  <!-- <div class="table my-3" data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" style="border: solid whitesmoke; box-shadow: -4px 4px 4px white;">
+
+                    <div>
+                      <tbody>
+                        <table class="m-3"> -->
+                          <div class="table bg-dark my-3 w-50" data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" style="border: solid yellow; box-shadow: -4px 4px 4px yellow;">
+
+                    <div>
+                      <tbody>
+                        <table class="th m-2 mx-auto">
+                          <thead class="thead-light">
+                            <tr>
+                              <th class="th">
+                                Data Plan
+                              </th>
+                              <th>Amount</th>
+                            </tr>
+                          </thead>
+    
+                          <tbody class="bg-dark" style="color: yellow;">
+                            <tr>
+                              <td>500MB</td>
+                              <td>#200</td>
+                            </tr>
+  
+                            <tr>
+                              <td>1GB</td>
+                              <td>#350</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>2GB</td>
+                              <td>#700</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>5GB</td>
+                              <td>#1,500</td>
+                            </tr>
+  
+                            <tr>
+                              <td>10GB</td>
+                              <td>#3,000</td>
+                            </tr>
+                          </tbody>
+                        </table>
+  
+                      </tbody>
+                    </div>
+                    <a href="https://wa.me/2347017813445" class="btn m-3 px-2 bg-light card-custom-data">Purchase Now</a>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- GLO -->
+              <div class="col-md-6" >
+                <div class="card-custom">
+                  <div class="d-flex">
+                    <div class="network">
+                      <img src="./asset/images/glo.png" alt="">
+                    </div>
+                    <h5 class="m-2">GLO</h5>
+
+                  </div>
+
+                  <div class="table bg-dark my-3 w-50" data-aos="flip-up"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000" style="border: solid yellow; box-shadow: -4px 4px 4px yellow;">
+
+                    <div>
+                      <tbody>
+                        <table class="th m-2 mx-auto">
+                          <thead class="thead-light">
+                            <tr>
+                              <th class="th">
+                                Data Plan
+                              </th>
+                              <th>Amount</th>
+                            </tr>
+                          </thead>
+    
+                          <tbody class="bg-dark" style="color: yellow;">
+                            <tr>
+                              <td>1.8GB</td>
+                              <td>#500</td>
+                            </tr>
+  
+                            <tr>
+                              <td>3.9GB</td>
+                              <td>#1,000</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>7.1GB</td>
+                              <td>#1,500</td>
+                            </tr>
+                            
+                            <tr>
+                              <td>9.2GB</td>
+                              <td>#2,000</td>
+                            </tr>
+  
+                            <tr>
+                              <td>10.8GB</td>
+                              <td>#2,400</td>
+                            </tr>
+                          </tbody>
+                        </table>
+  
+                      </tbody>
+                    </div>
+                    <a href="https://wa.me/2347017813445" class="btn m-3 px-2 bg-light card-custom-data">Purchase Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </section>
+        <!-- //WORK -->
+
+
+
+        <!-- ABOUT -->
+        <section class="full-height px-lg-5 bg-base" id="about">
+          <div class="container">
+
+            <div class="row pb-4">
+              <div class="col-lg-8" data-aos="fade-down" data-aos-delay="300">
+                <h6 class="text-brand">About Us</h6>
+                <!-- <h1 data-aos="fade-up" data-aos-delay="400">My Education & Experience</h1> -->
+              </div>
+            </div>
+
+            <div class="row gy-5">
+              <div class="col-lg-6">
+
+                <div class="d-lg-flex">
+                  <h4 class="mb-4 mr-2" data-aos="fade-up" data-aos-delay="500">Reason For Choosing Us</h4>
+                  <!-- <h4 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h4> -->
+                  <div class="row gy-4">
+                    <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                      <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                        <p>We provide transmission services for a variety of categories, including Noble Data, cable sub, Airtime(vtu),  and much more. <br><br> Our services, which include our affordable price guarantee, automated, dependable, dedicated customer service support, and many other premium services, are created to guarantee the highest levels of comfort and customer satisfaction. <br><br> Contact us and patronize our service to take part in the increasing benefits.</p>
+  
+                      </div>
+
+                </div>
+
+                    <!-- <div class="d-flex">
+                      <div class="col-lg-12">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Education</h3>
+                    <div class="row gy-4">
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          <h4>Master of Software Engineering</h4>
+                          <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+    
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          <h4>Master of Software Engineering</h4>
+                          <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+    
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          <h4>Master of Software Engineering</h4>
+                          <p class="text-brand mb-2">De Mars University Venston Bay (2015 - 2020)</p>
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+    
+                      </div>
+  
+                      <div class="col-lg-12 ml-2">
+                        <h3 class="mb-4" data-aos="fade-up" data-aos-delay="300">Experience</h3>
+                    <div class="row gy-4">
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          <h4>Applications developer</h4>
+                          <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+    
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          <h4>Applications developer</h4>
+                          <p class="text-brand mb-2">Twitter (2018 - 2020)</p>
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+    
+                      <div class="col-12" data-aos="fade-up" data-aos-delay="600">
+                        <div class="bg-base p-4 rounded-4 shadow-effect" style="background-color: rgb(7, 48, 49);">
+                          
+                          <p class="mb-0">All we are more and design lorem ipsum dolor creativity sit amet consectetur adipisicing elit</p>
+                        </div>
+                      </div>
+                      
+                    </div>
+    
+                      </div>
+
+                    </div> -->
+
+
+                  </div>
+                </div>
+              </div>
+
+              
+
+
+
+            </div>
+          </div>
+        </section>
+        <!-- //ABOUT -->
+    </div>
+    <!-- //CONTENT WRAPPER -->
+
+
+
+
+
+    <!-- <footer>
+        <div class="cite">
+            <p><cite>HTML crash course</cite> by Qudus</p> 
+            <small class="cite1"><cite>Posted by</cite> Qudus</small>
+            <small class="cite1"><cite>Posted</cite> by Qudus <cite>on the 1st of March</cite></small>
+            <br>
+            <br>
+            <hr>
+            <br>
+            <p><cite> Copyright &copy; 2023,</cite> MYKEALL Website</p>
+            
+        </div>
+    </footer> -->
+
+    <div>
+      <h6 class="my-4"><b><a class="btn-login px-5 py-2" href="market.html" type="submit" style="margin-left: 24%;" >Login</a></b></h6>
+
+  </div>
+    
+    <script src="./asset/js/aos.js"></script>
+    <script src="./asset/js/bootstrap.bundle.min.js"></script>
+    <script src="./asset/js/main.js"></script>
+</body>
+</html>

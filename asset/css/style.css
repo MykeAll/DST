@@ -1,0 +1,369 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+
+:root {
+    --color-body: #b6cbce;
+    --color-heading: #eef3db;
+    --color-base: #3f0bb8;
+    --color-base2: #150347;
+    --color-brand: #b7b8b5;
+    --color-brand2: #070707;
+    --sidebar-width: 24px;
+    --font-base: "Bai Jamjuree";
+}
+
+
+body {
+    position: relative;
+    background-color: var(--color-base2);
+    background-size: cover;
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-base);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+/* //GENERAL */
+
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--color-heading);
+}
+.navbar .nav-link {
+    background-color: var(--color-brand);
+    color: #fff;
+    padding-left: 14px;
+    width: 100px;
+} 
+
+.navbar .nav-link:hover {
+    color: var(--color-brand2);
+    cursor: pointer;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.navbar .nav-link:active {
+    columns: var(--color-brand);
+    color: var(--color-brand2);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* 
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 20% 0 20%;
+    border: solid black;
+    cursor: pointer;
+} */
+
+
+.welcome {
+    margin-top: 60%;
+    margin-left: 10px;
+}
+
+/* .link-custom {
+    color: #b6cbce;
+} */
+
+.call img {
+    
+    border-top: solid red;
+    border-left: solid yellow;
+    border-right: solid rgb(134, 212, 16);
+    border-bottom: solid green;
+    border-radius: 20px 20px 0 0;
+}
+
+ /* BTN */
+ .btn {
+    padding: 12px 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.btn-brand {
+    background-color: var(--color-brand);
+    border-color: var(--color-brand);
+    color: var(--color-base);
+}
+
+.btn-brand:hover, .btn-brand:focus {
+    background-color: var(--color-base);
+    border-color: var(--color-brand2);
+    color: var(--color-brand2);
+}
+
+.link-custom {
+    color: #b6cbce;
+    font-weight: 700;
+    position: relative;
+}
+
+.link-custom::after {
+    background-color: var(--color-brand);
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: 110%;
+    transition: all 0.4s;
+    width: 0%;
+}
+
+.link-custom:hover::after {
+    width: 100%;
+}
+/* //NAVBAR */
+
+
+
+
+
+
+/* SERVICES */
+/* CONTENT WRAPPER */
+/* #content-wrapper {
+    padding-top: 30%;
+    padding-left: 20%;
+} */
+
+.full-height {
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    display: block;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 100vh;
+    height: 100%;
+}
+
+
+.shadow-effect {
+    /* border: 4px solid var(--color-brand2); */
+    box-shadow: 6px 6px 0 0 var(--color-brand);
+    /* margin-right: auto; */
+    transition: all 1s ease;
+}
+
+.shadow-effect:hover {
+    box-shadow: -6px 6px 0 0 var(--color-brand);
+    border: none;
+    transform: translate(7%);
+}
+
+.iconbox {
+    align-items: center;
+    background-color: var(--color-brand);
+    border-radius: 10px 0 0 10px;
+    color: var(--color-base);
+    cursor: pointer;
+    display: flex;
+    font-size: 32px;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+}
+
+.iconbox:hover {
+    background-color: var(--color-brand2);
+    color: var(--color-base2);
+    border: solid var(--color-brand2);
+}
+
+.text-brand {
+    color: var(--color-brand);
+}
+
+.bg-base {
+    background-color: var(--color-base);
+    display: block;
+    margin-bottom: 30px;
+    width: 70%;
+}
+
+/* //SERVICES */
+
+/* PRICE-CARD */
+.network img {
+    width: 40px;
+}
+
+.table {
+    display: grid;
+}
+
+.card-custom .card-custom-data {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-data {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-data {
+    cursor: pointer;
+    margin: 2px;
+    transform: scale(1.1);
+}
+/* 
+.card-custom .card-custom-image {
+    overflow: hidden;
+}
+
+.card-custom .card-custom-image img {
+    transition: all 0.4s ease;
+}
+
+.card-custom:hover .card-custom-image img {
+    transform: scale(1.1);
+} */
+
+/* //PRICE-CARD */
+
+
+/* FOOTER */
+footer {
+    background-color: #000729;
+    border: 2px solid #ffd;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px #000;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 14px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.cite {
+    /* position: absolute; */
+    color: #ffd;
+    /* left: 34%; */
+    align-self: center;
+    justify-content: center;
+}
+.cite1 {
+    /* padding-left: 10%; */
+    /* top: 40px; */
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+
+/* //FOOTER */
+
+@media (min-width: 992px) {
+    .navbar .nav-link {
+        background: none;
+    }
+    .navbar {
+        background: linear-gradient(rgba(3, 63, 71, 0.8),rgba(3, 63, 71, 0.8)), url(../images/excited-african-american-millennial-male-260nw-1437938291.webp);
+        background-position: center;
+        background-size: cover;
+        min-height: 100vh;
+        margin-right: auto;
+        /* width: var(--sidebar-width); */
+        width: 15%;
+    }
+    
+    .happy {
+        border: 2px solid white;
+        border-radius: 100%;
+        height: 120px;
+        width: 120px;
+    }
+
+    header {
+        display: flex;
+        float: right;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+
+    .welcome {
+        margin-top: 0%;
+    }
+
+    .logo {
+        /* position: absolute; */
+        /* margin-top: 3%; */
+        /* margin-left: 18%; */
+        position: relative;
+    }
+
+    .container {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-top: 12%;
+        padding-left: 14%;
+    }
+
+    .full-height {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        /* margin: 4px; */
+        min-height: 100vh;
+        height: 100%;
+    }
+
+    .bg-base {
+        background-color: var(--color-base);
+        width: 100%;
+    }
+
+    /* .table {
+        display: grid;
+    } */
+
+     /* BTN */
+     /* .btn {
+        padding: 12px 28px;
+        font-weight: 700;
+    }
+
+    .btn-brand {
+        background-color: var(--color-brand);
+        border-color: var(--color-brand);
+        color: var(--color-base);
+    }
+
+    .btn-brand:hover, .btn-brand:focus {
+        background-color: var(--color-brand2);
+        border-color: var(--color-brand2);
+        color: var(--color-base2);
+    } */
+
+
+}
