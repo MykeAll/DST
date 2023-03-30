@@ -4,7 +4,9 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
+
 /* //GENERAL */
 
 
@@ -15,13 +17,14 @@
     background-repeat: no-repeat;
     /* width: 100%; */
     color: #fff;
-    height: 100vh;
+    /* width: 100%; */
+    /* height: 100vh; */
     position: relative;
 }
-
+/* 
 .head h3 {
-    width: 70%;
-}
+    width: 60%;
+} */
 .navbar {
     box-shadow: 0px 2px 2px rgb(34, 34, 104);
 }
@@ -71,12 +74,11 @@ li a {
 }
 
 .box {
-    background-color: #cecbcb;
-    border-radius: 100%;
+    background-color: #fff;
     /* border: 1px solid blue; */
     font-size: 2rem;
-    width: 1px;
-    height: 20px;
+    width: 60px;
+    height: 10px;
     margin-bottom: 0;
 }
 
@@ -87,10 +89,9 @@ li a {
 
 
 /* LOGIN */
-
-.email {
+/* .email {
     width: 200%;
-}
+} */
 
 
 .email:hover {
@@ -100,10 +101,10 @@ li a {
     transition: 1s ease;
     transform: scaleY(110%);
 }
-
+/* 
 .password {
     width: 200%;
-}
+} */
 
 
 .password:hover {
@@ -131,20 +132,131 @@ li a {
 /* //LOGIN */
 
 
-/* PORTFOLIO */
-.port img {
-    background-color: black;
-    border: 2px solid black;
+/* SERVICES */
+.services {
+    background-color: rgba(224, 223, 223, 0.973);
+    width: 100%;
+    /* height: 100%; */
+    border-bottom: 7px solid rgb(7, 7, 63);
 }
 
-.port img:hover {
-    border: 2px solid whitesmoke;
-    box-shadow: -4px 4px 6px black;
-    padding: 2px;
+.sol {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 30%;
+}
+
+.sol:hover {
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
     transition: 1s ease;
     transform: scaleX(110%);
 }
+
+/* //SERVICES */
+
+
+/* ABOUT US */
+.about {
+    background-color: rgba(224, 223, 223, 0.973);
+    width: 100%;
+    /* height: 100%; */
+}
+
+.about .img:hover {
+    transition: 1s ease;
+    transform: scaleX(110%);
+}
+
+.abt {
+    color: #fff;
+    background-color: rgb(11, 11, 129);
+    word-spacing: 10px;
+    border-radius: 20px;
+    /* line-height: 200%; */
+    justify-content: center;
+    /* height: 90vh; */
+    width: 70%;
+}
+
+.abt:hover {
+    transition: 1s ease;
+    transform: scaleX(110%);
+}
+
+.read a {
+    background: #000;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    /* padding: 10px; */
+    width: 14%;
+}
+
+.read a:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: 900;
+    transition: 1s ease;
+    transform: scaleX(110%);
+    /* transform: scaleY(-10%); */
+}
+/* //ABOUT US */
+
+
+/* PORTFOLIO */
+.portfolio {
+    background-color: rgba(53, 50, 50, 0.973);
+    /* width: 100vw; */
+    /* height: 100%; */
+}
+
+.view {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(10, 10, 61);
+    color: rgb(31, 31, 39);
+    font-weight: 700;
+    width: 14%;
+}
+
+.view:hover {
+    transition: 1s ease;
+    transform: scaleX(110%);
+}
+
 /* //PORTFOLIO */
+
+
+/* OBJECTIVE */
+.objective {
+    background-color: rgba(224, 223, 223, 0.973);
+    width: 100%;
+    /* height: 100%; */
+    /* border-bottom: 7px solid rgb(7, 7, 63); */
+}
+
+.obj {
+    background-color: #fff;
+    /* background-size: contain; */
+    /* border-radius: 20px; */
+    padding-top: 20px;
+    margin-bottom: 10px;
+    /* width: 40%; */
+}
+
+.obj:hover {
+    border: 2px solid black;
+    box-shadow: -4px 4px 4px black;
+    transition: 1s ease;
+    transform: scaleX(110%);
+}
+
+/* //OBJECTIVE */
 
 
 /* CONTACT US */
@@ -154,14 +266,14 @@ li a {
     border-bottom-right-radius: 40px;
     color: #fff;
     margin-bottom: 20px;
-    /* width: 100vw; */
+    width: 100%;
     /* height: 100%; */
     /* border-bottom: 7px solid rgb(7, 7, 63); */
 }
 
 input {
     border-radius: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
     box-shadow: -2px 2px 2px #000;
     padding: 7px;
 }
@@ -195,7 +307,7 @@ textarea {
 .footer {
     background-color: rgba(34, 10, 90, 0.973);
     color: #fff;
-    /* width: 100vw; */
+    width: 100%;
     /* height: 100%; */
     /* border-bottom: 7px solid rgb(7, 7, 63); */
 }
@@ -247,14 +359,23 @@ textarea {
 
 
 
-
-
 @media (max-width: 700px) {
-    .head h3 {
+    /* .head h3 {
         width: 60%;
-    }
+    } */
+
     .nav-link {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+
+    .sol {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+
+    .abt {
+        height: 10%;
     }
 }
