@@ -32,17 +32,17 @@
                 <div class="collapse navbar-collapse justify-content-between " id="ul">
                     <ul class="nav-link align-content-between 
                     d-lg-flex my-1 my-lg-2 justify-content-lg-between text-center align-content-sm-center align-content-between">
-                        <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="index.html" style="color: blue;">Home</a></li>
+                        <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="index.html">Home</a></li>
                         <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="services.html">Services</a></li>
                         <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="portfolio.html">Portfolio</a></li>
-                        <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="market.html">Market</a></li>
+                        <li class="my-1 mt-lg-0"><a class="mx-lg-4" style="color: blue;">Market</a></li>
                         <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="#about">About Us</a></li>
                         <li class="my-1 mt-lg-0"><a class="mx-lg-4" href="#contact">Contact Us</a></li>
                         <br>
                         <li class="my-2 mt-lg-0"><a class="login ml-lg-4" href="#" data-bs-target="#modal" data-bs-toggle="modal">LOG OUT<i class="las la-sign-out-alt"></i></a></li>
                     </ul>
                 </div>
-
+                
             </div>
             <!-- //NAVBAR -->
 
@@ -56,14 +56,14 @@
                                 <!-- <br><button class="btn-close mr-2" data-bs-dismiss="modal" style="background-color: #ee1a3d; color: whitesmoke;"></button> -->
                             </div>
                             <p class="mb-3">Are you sure that you want to logout?</p>
-
-                            <div class="d-flex justify-content-between mx-5 px-5 my-5">
+                            
+                            <div class="d-flex justify-content-between mx-lg-5 px-2 px-lg-5 my-5">
                                 <div><button class="btn btn-danger" data-bs-dismiss="modal"><h6><b><a href="#" style="color: #fff;">Oh! No</a></b></h6></button></div>
                                 <div><button class="btn btn-success"><h6><b><a href="index.html" data-bs-target="#modal1" data-bs-toggle="modal" style="color: #fff;">Oh! Yes</a></b></h6></button></div>
-
+                                
                             </div>
                         </div>
-                                            </div>
+                    </div>
                 </div>
             </div>
 
@@ -75,32 +75,126 @@
                             <div class="d-flex justify-content-between mx-auto"><h4 class="text-center align-content-center justify-content-between my-4" style="margin-left: 40%; color: rgb(17, 16, 87);"><b>GREAT!</b></h4>
                             </div>
                             <p class="mb-5 text-success">You have Successfully logged out</p>
-                                <div><button class="btn mb-5 mx-auto justify-content-center" style="background-color: rgb(17, 16, 87);"><h6><b><a href="index.html" style="color: #fff;">Thanks</a></b></h6></button></div>
-
-                            </div>
+                            <div><button class="btn mb-5 mx-auto justify-content-center" style="background-color: rgb(17, 16, 87);"><h6><b><a href="index.html" style="color: #fff;">Thanks</a></b></h6></button></div>
+                            
                         </div>
-                                            </div>
+                    </div>
                 </div>
+            </div>
             <!-- //LOG-OUT -->
-
-
+            
+            
             <!-- HERO SECTION -->
             <div class="py-5" style="background-color: rgb(180, 178, 178); padding: 30px 0;">
-            <div class="head align-content-center p-5 justify-content-center text-center position-relative">
-                <div class="p-5 m-auto justify-content-center text-center align-content-center">
-                    <h1 class="my-5 mb-lg-5 justify-content-center align-content-center text-center"><b>PORTFOLIO</b></h1>
-                    <h3 class="m-auto align-content-center justify-content-center text-center mb-5 w-75">Check out how Desire Solar Technology has helped numerous commercial and non-commercial clients in Nigeria to install solar power system</h3>
+            <div class="head justify-content-center mx-auto pt-5">
+                <div class="py-5 justify-content-between px-4">
 
+                    <form action="input" class="location col-lg-12 mx-auto justify-content-between">
+                    <label for="input" class="mr-lg-5">
+                        <b>NAME</b>
+                        <br>
+                        <input type="text" name="name" id="" placeholder="Enter full name">
+                    </label>
+                    <label for="input" class="mx-2 mx-lg-5">
+                        <b>LOCATION</b> 
+                        <br>
+                        <select name="State" id="">
+                            <option value="State">-----</option>
+                            <option value="State">Abia</option>
+                            <option value="State">Adamawa</option>
+                            <option value="State">Akwa Ibom</option>
+                            <option value="State">Anambra</option>
+                            <option value="State">Bauchi</option>
+                            <option value="State">Bayelsa</option>
+                            <option value="State">Benue</option>
+                            <option value="State">Borno</option>
+                        </select>
+                    </label>
+                    
+                    <label for="input" class="ml-lg-5">
+                        <b>PHONE</b>
+                        <br>
+                        <input type="number" name="name" id="" placeholder="Enter phone number">
+                    </label>
+                    
+                    <div class="my-2 mt-lg-0"><a class="new ml-lg-4" href="#" data-bs-target="#modal2" data-bs-toggle="modal" type="button"><i class="las la-plus"></i> <b>New Items</b></a></div>
+                    
+                    <!-- <div id="add" class="row my-2 ml-0 mx-auto bg-success">
+                        <div class="mx-auto">
+                            <button  type="button" id="btn-data" class="btn btn-success" onclick="addOnClick()" href="#" data-bs-target="#modal2" data-bs-toggle="modal"><i class="las la-plus"></i> New Items</button>
+                        </div>
+                    </div> -->
+
+                </form>
+                <!-- TABLE -->
+                <div class="container1 bg-light">
+                    <div class="table justify-content-center text-center align-content-center" id="table"></div>
+                </div>
                     <!-- <button class="btn px-lg-3 mb-md-5"><a class="btn" href="#">Register Now</a></button> -->
 
-                    <!-- ROW -->
-                    <div class="row row-cols-lg-3 row-cols-2 gy-4 g-md-7 mx-auto justify-content-center mt-5">
-                        <a class="box two mx-3" href="#"></a>
-                        <a class="box one mx-3" href="#" style="color: rgb(30, 30, 58); background-color: blue;"></a>
-                        <a class="box two mx-3" href="#"></a>
-                        <a class="box two mx-3" href="#"></a>
-                        <a class="box three mx-3" href="#"></a>
+                    <!-- ADD -->
+            <div class="modal fade" id="modal2" style="margin-top: 10vh;">
+                <div class="modal-dialog modal-dialog">
+                    <div class="modal-content" style="background-color: rgb(14, 14, 90); color: #fff; border-radius: 30px;">
+                        <div class="text-center mt-3">
+                            <div class="d-flex justify-content-between mx-auto"><h4 class="text-center align-content-center justify-content-between my-4" style="margin-left: 35%;"><b>SELECT ITEMS</b></h4>
+                                <br><button class="btn-close mr-2" data-bs-dismiss="modal" style="background-color: #ee1a3d; color: whitesmoke;"></button>
+                            </div>
+                            <!-- <p style="border-bottom: 2px solid snow; padding-bottom: 20px;">Sign in your user ID  to access the solar market</p> -->
+                        </div>
+                        
+                        <form class="mt-0 mx-auto justify-content-center" action="input">
+                            <div class="row mt-5" id="input">
+                                <div id="flex1">
+                                    <div class="col-md-3">
+                                        <label for="firstName">Enter First Name:</label>
+                                        <input type="text" class="form-control" name="firstName" id="firstName">
+                                    </div>
+                                    <div class="col-md-3">
+                                        <label for="lastName">Enter Last Name:</label>
+                                        <input type="text" class="form-control" name="lastName" id="lastName">
+                                    </div>
+                    
+                                </div>
+                                    <div id="flex2">
+                                        
+                                        <div class="col-md-3">
+                                            <label for="email">Enter Email:</label>
+                                            <input type="email" class="form-control" name="email" id="email">
+                                        </div>
+                                        <!-- <div class="col-md-3">
+                                            <label for="age">Select DOB:</label>
+                                            <input type="number" class="form-control" name="age" id="age">
+                                            <input type="date" class="form-control" onclick="this.innerHTML=Date()" name="birthday" id="age">
+                                        </div> -->
+                                        <div class="col-md-3">
+                                            <label for="gender">Select Gender:</label>
+                                            <!-- <input type="gender" class="form-control" name="" id="gender"> -->
+                                            <select class="gender" name="gender" id="gender">
+                                                <option value="select">--------</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                                <option value="Others" contenteditable="">Others</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                    
+                                    
+                                    
+                                    <div id="add" class="row mt-5">
+                                        <div class="col-md-12 text-center">
+                                            <button  type="button" id="btn-data" class="btn btn-success" style="background-color: green;" onclick="addOnClick()"><i class="las la-plus"></i> Add</button>
+                                        </div>
+                                    </div>
+                            </div>
+                            
+                        </form>
+                        <!-- <button class="btn-login px-5 py-2 my-4 mx-auto" type="login"><b>Login</b></button> -->
+                        <div class="d-flex mx-auto mb-2"><p>Don't have an account?<p style="visibility: hidden;">_</p><h6><a href="#" style="color: #fff;">Sign Up</a></h6></p></div>
                     </div>
+                </div>
+            </div>
+            <!-- //ADD -->
                 </div>
                 
 
@@ -118,36 +212,7 @@
     <div class="p-4">
         <div><h6 class="mx-auto mb-3 font-weight-bold" style="font-size: large; text-align: center; color: rgb(15, 15, 145);">Below are the success stories with photos and case studies to see how solar power systems are been installed.</h6></div>
 
-        <!-- <div class="solarExplain col-lg-12 mx-auto d-block d-lg-flex justify-content-between mt-5">
-            
-            <div class="d-block justify-content-center mx-auto">
-                <div class="port d-flex mx-auto mb-4">
-                    <img style="border-top-left-radius: 20%; height: 30%; width: 30%;" src="/image/pf1.png" alt="">
-                    <img class="mx-auto" style="height: 30%; width: 30%;" src="/image/pf2.png" alt="">
-                    <img style="border-top-right-radius: 20%; height: 30%; width: 30%;" src="/image/pf3.png" alt="">                        
-                </div>
-
-                <div class="port d-flex mx-auto mb-4">
-                    <img style="height: 30%; width: 30%;" src="/image/pf4.png" alt="">
-                        <img class="mx-auto" style="height: 30%; width: 30%;" src="/image/pf5.png" alt="">
-                        <img style="height: 30%; width: 30%;" src="/image/pf6.png" alt="">
-                </div>
-
-                <div class="port d-flex mx-auto">
-                    <img style="border-bottom-left-radius: 20%; height: 30%; width: 30%;" src="/image/pf7.png" alt="">
-                        <img class="mx-auto" style="height: 30%; width: 30%;" src="/image/pf8.png" alt="">
-                        <img style="border-bottom-right-radius: 20%; height: 30%; width: 30%;" src="/image/pf9.png" alt="">
-                </div>
-
-            </div>
-            
-        </div> -->
         
-        <!-- <div class="view mx-auto my-4 p-1 mb-4 text-center">
-            <a class="mx-auto" href="portfolio.html">View More <br> <i class="las la-arrow-alt-circle-right mx-auto"></i>
-            </a>
-
-        </div> -->
 
     </div>
 
@@ -324,5 +389,6 @@
     <script src="./asset/js/bootstrap.bundle.min.js"></script>
     <script src="./asset/js/main.js"></script>
     <script src="./asset/js/script.js"></script>
+    <script src="./asset/js/market.js"></script>
 </body>
 </html>

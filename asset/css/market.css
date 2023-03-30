@@ -40,6 +40,13 @@
     border-radius: 10px;
 }
 
+.new {
+    background-color: green;
+    color: #fff; 
+    padding: 7px; 
+    border-radius: 10px;
+}
+
 button .btn {
     background-color: #fff; 
     color: rgb(21, 21, 92); 
@@ -47,7 +54,7 @@ button .btn {
 }
 
 nav {
-    width: 100vw;
+    width: 100%;
 }
 
 button .btn:hover {
@@ -60,6 +67,13 @@ button .btn:hover {
     background-color: #fff;
     border: 2px solid rgb(15, 15, 105);
     color: rgb(15, 15, 105);
+    text-decoration: none;
+}
+
+.new:hover {
+    background-color: #fff;
+    border: 2px solid green;
+    color: green;
     text-decoration: none;
 }
 
@@ -319,6 +333,13 @@ input {
     padding: 7px;
 }
 
+select {
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: -2px 2px 2px #000;
+    padding: 7px;
+}
+
 textarea {
     border-radius: 10px;
     border: 1px solid black;
@@ -359,7 +380,7 @@ textarea {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     /* .head h3 {
         width: 60%;
     } */
@@ -370,8 +391,14 @@ textarea {
         justify-content: space-between;
     }
 
+    .location {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
     .sol {
-        width: 70%;
+        /* width: 70%; */
         margin-bottom: 20px;
     }
 

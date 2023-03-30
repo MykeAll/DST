@@ -4,6 +4,7 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 100%;
 }
 /* //GENERAL */
 
@@ -45,7 +46,7 @@ button .btn {
 }
 
 nav {
-    width: 100vw;
+    width: 100%;
 }
 
 button .btn:hover {
@@ -250,7 +251,7 @@ textarea {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
      /* .head h3 {
         width: 60%;
     } */

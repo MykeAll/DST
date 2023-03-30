@@ -48,7 +48,7 @@ button .btn {
 }
 
 nav {
-    width: 100vw;
+    width: 100%;
 }
 
 button .btn:hover {
@@ -178,7 +178,7 @@ li a {
     /* line-height: 200%; */
     justify-content: center;
     /* height: 90vh; */
-    width: 70%;
+    /* width: 100%; */
 }
 
 .abt:hover {
@@ -360,7 +360,7 @@ textarea {
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
     /* .head h3 {
         width: 60%;
     } */
@@ -372,11 +372,11 @@ textarea {
     }
 
     .sol {
-        width: 70%;
+        /* width: 70%; */
         margin-bottom: 20px;
     }
 
-    .abt {
+    /* .abt {
         height: 10%;
-    }
+    } */
 }
