@@ -41,7 +41,7 @@
 }
 
 .new {
-    background-color: green;
+    background-color: #000;
     color: #fff; 
     padding: 7px; 
     border-radius: 10px;
@@ -72,8 +72,8 @@ button .btn:hover {
 
 .new:hover {
     background-color: #fff;
-    border: 2px solid green;
-    color: green;
+    border: 2px solid #000;
+    color: #000;
     text-decoration: none;
 }
 
@@ -146,6 +146,13 @@ li a {
 /* //LOGIN */
 
 
+/* TABLE */
+.table {
+    justify-content: center;
+}
+/* //TABLE */
+
+
 /* SERVICES */
 .services {
     background-color: rgba(224, 223, 223, 0.973);
@@ -181,6 +188,10 @@ li a {
 .about .img:hover {
     transition: 1s ease;
     transform: scaleX(110%);
+}
+
+.abt-img {
+    width: 100%;
 }
 
 .abt {
@@ -328,15 +339,17 @@ textarea {
 
 input {
     border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: -2px 2px 2px #000;
+    border: none;
+    /* border: 1px solid black; */
+    box-shadow: -2px 2px 4px gray;
     padding: 7px;
 }
 
 select {
     border-radius: 10px;
-    border: 1px solid black;
-    box-shadow: -2px 2px 2px #000;
+    border: none;
+    /* border: 1px solid black; */
+    box-shadow: -2px 2px 4px gray;
     padding: 7px;
 }
 

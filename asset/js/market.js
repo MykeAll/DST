@@ -2,13 +2,13 @@ var nameData = [
     {
         items:"FAN",
         quality:"PREMIUM",
-        powerRating: "30.42W",
+        powerRating: "30.42",
         quantity: 4, id:1
     },
     {
         items:"BULB",
         quality:"BASIC",
-        powerRating: "60W",
+        powerRating: "60",
         quantity: 8, id:2
     }
 ];
@@ -23,29 +23,30 @@ document.getElementById('substract()').innerHTML = substract();
 */
 
 function displayTableData() {
-    var html = "<table border= '1/1 class='table'>";
+    var html = "<table border= '1/2 class='table'>";
     setTimeout(() => {
-        html+="<thead>";
+        html+="<thead style=' background-color: gray; color: #000; border-bottom: 2px solid #000;'>";
         html+="<tr>";
-        html+="<td>" + 'S/No.' + "</td>";
-        html+="<td contenteditable=''>" + 'ITEMS' + "</td>";
-        html+="<td>" + 'QUALITY' + "</td>";
-        html+="<td>" + 'POWER-RATING' + "</td>";
+        html+="<td  style='border-right: 2px solid #000;'>" + '<b>S/NO.</b>' + "</td>";
+        html+="<td  style='border-right: 2px solid #000;' contenteditable=''>" + '<b>ITEMS</b>' + "</td>";
+        html+="<td  style='border-right: 2px solid #000;'>" + '<b>QUALITY</b>' + "</td>";
+        html+="<td  style='border-right: 2px solid #000;'>" + '<b>POWER-RATING</b>' +  "</td>";
         // html+="<td>" + 'Age' + "</td>";
-        html+="<td>" + 'QUANTITY' + "</td>";
-        html+="<td>" + 'Action' + "</td>";
+        html+="<td  style='border-right: 2px solid #000;'>" + '<b>QUANTITY</b>' + "</td>";
+        html+="<td>" + '<b>ACTION</b>' + "</td>";
         html+="</tr>";
         html+="</thead>";
         for ( var i = 0; i < nameData.length; i++) {
             var sno=i+1;
-            html+="<tr>";
-            html+="<td>" + sno + "</td>";
-            html+="<td>" + nameData[i].items + "</td>";
-            html+="<td>" + nameData[i].quality + "</td>";
-            html+="<td>" + nameData[i].powerRating + "</td>";
+            html+="<tr style='background-color: #fff; border-bottom: 2px solid #000;'>";
+            html+="<td  style='border-right: 2px solid #000;'>" + sno + "</td>";
+            html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].items + "</td>";
+            html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].quality + "</td>";
+            html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].powerRating + "</td>";
             // html+="<td>" + nameData[i].age + "</td>";
-            html+="<td>" + nameData[i].quantity + "</td>";
-            html+="<td>"+ `<button type="button" class="btn btn-danger" onclick='removeItem(${nameData[i].id})'><i class="fa fa-trash"></i> Remove</button>` + `<button type="button" class="btn btn-upload" onclick='updateItem(${nameData[i].id})'><i class="fa fa-upload"></i> Update</button>` + "</td>";
+            html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].quantity + "</td>";
+            html+="<td>"+ `<button type="button" class="btn btn-danger" onclick='removeItem(${nameData[i].id})'><i class="fa fa-trash"></i> Remove</button>` + "</td>";
+            // html+="<td>"+ `<button type="button" class="btn btn-danger" onclick='removeItem(${nameData[i].id})'><i class="fa fa-trash"></i> Remove</button>` + `<button type="button" class="btn btn-upload" onclick='updateItem(${nameData[i].id})'><i class="fa fa-upload"></i> Update</button>` + "</td>";
             html+="</tr>";
         }
         html+="</table>";
@@ -54,6 +55,7 @@ function displayTableData() {
 }
 
 displayTableData();
+document.value
 
 function addOnClick() {
     var items = document.getElementById('items').value;
@@ -65,7 +67,7 @@ function addOnClick() {
     if(items && quality && powerRating && quantity) {
         let id = nameData.length +1;
         nameData.push({
-            items:items, quality:quality, powerRating:powerRating, quantity:quantity,id:id
+            items:items, quality:quality, powerRating:powerRating, quantity:quantity, id:id
         })
         displayTableData();
         clearItems();
@@ -112,3 +114,12 @@ function updateItem(rec) {
 }
 
 updateItem()
+
+
+// OTHERS
+function showfield(name){
+  if(name=='Other')document.getElementById('div1').innerHTML='Other: <input type="text" name="other" />';
+  else document.getElementById('div1').innerHTML='';
+}
+
+onchange="showfield(this.options[this.selectedIndex].value)"

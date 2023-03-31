@@ -175,10 +175,11 @@ li a {
     background-color: rgb(11, 11, 129);
     word-spacing: 10px;
     border-radius: 20px;
-    /* line-height: 200%; */
+    line-height: 200%;
     justify-content: center;
-    /* height: 90vh; */
-    /* width: 100%; */
+    position: relative;
+    height: 100%;
+    width: 50%;
 }
 
 .abt:hover {
@@ -372,11 +373,12 @@ textarea {
     }
 
     .sol {
-        /* width: 70%; */
+        width: 70%;
         margin-bottom: 20px;
     }
 
-    /* .abt {
+    .abt {
         height: 10%;
-    } */
+        width: 100%;
+    }
 }

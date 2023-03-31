@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="./asset/css/line-awesome.min.css">
     <link rel="stylesheet" href="./asset/css/market.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <!-- <link rel="stylesheet" href="/asset/css/main.css"> -->
 
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
@@ -89,13 +93,13 @@
             <div class="head justify-content-center mx-auto pt-5">
                 <div class="py-5 justify-content-between px-4">
 
-                    <form action="input" class="location col-lg-12 mx-auto justify-content-between">
-                    <label for="input" class="mr-lg-5">
+                    <form action="input" class="location col-lg-12 mx-auto align-content-center justify-content-between">
+                    <label for="input" class="mr-lg-5 text-dark">
                         <b>NAME</b>
                         <br>
                         <input type="text" name="name" id="" placeholder="Enter full name">
                     </label>
-                    <label for="input" class="mx-2 mx-lg-5">
+                    <label for="input" class="mx-2 mx-lg-5 text-dark">
                         <b>LOCATION</b> 
                         <br>
                         <select name="State" id="">
@@ -108,16 +112,45 @@
                             <option value="State">Bayelsa</option>
                             <option value="State">Benue</option>
                             <option value="State">Borno</option>
+                            <option value="State">Cross River</option>
+                            <option value="State">Delta</option>
+                            <option value="State">Ebonyi</option>
+                            <option value="State">Edo</option>
+                            <option value="State">Ekiti</option>
+                            <option value="State">Enugu</option>
+                            <option value="State">Gombe</option>
+                            <option value="State">Imo</option>
+                            <option value="State">Jigawa</option>
+                            <option value="State">Kaduna</option>
+                            <option value="State">Kano</option>
+                            <option value="State">Kastina</option>
+                            <option value="State">Kebbi</option>
+                            <option value="State">Kogi</option>
+                            <option value="State">Kwara</option>
+                            <option value="State">Lagos</option>
+                            <option value="State">Nasarawa</option>
+                            <option value="State">Niger</option>
+                            <option value="State">Ogun</option>
+                            <option value="State">Ondo</option>
+                            <option value="State">Osun</option>
+                            <option value="State">Oyo</option>
+                            <option value="State">Plateau</option>
+                            <option value="State">Rivers</option>
+                            <option value="State">Sokoto</option>
+                            <option value="State">Taraba</option>
+                            <option value="State">Yobe</option>
+                            <option value="State">Zamfara</option>
+                            <option value="State">Abuja FCT</option>
                         </select>
                     </label>
                     
-                    <label for="input" class="ml-lg-5">
+                    <label for="input" class="ml-lg-5 text-dark">
                         <b>PHONE</b>
                         <br>
                         <input type="number" name="name" id="" placeholder="Enter phone number">
                     </label>
                     
-                    <div class="my-2 mt-lg-0"><a class="new ml-lg-4" href="#" data-bs-target="#modal2" data-bs-toggle="modal" type="button"><i class="las la-plus"></i> <b>New Items</b></a></div>
+                    <label class="my-2 mt-4 mx-lg-5"><a class="new ml-lg-5" href="#" data-bs-target="#modal2" data-bs-toggle="modal" type="button"><i class="las la-plus"></i> <b>New Items</b></a></label>
                     
                     <!-- <div id="add" class="row my-2 ml-0 mx-auto bg-success">
                         <div class="mx-auto">
@@ -127,8 +160,8 @@
 
                 </form>
                 <!-- TABLE -->
-                <div class="container1 bg-light">
-                    <div class="table justify-content-center text-center align-content-center" id="table"></div>
+                <div class="container1">
+                    <div class="table my-3 mx-auto ml-lg-5" id="table"></div>
                 </div>
                     <!-- <button class="btn px-lg-3 mb-md-5"><a class="btn" href="#">Register Now</a></button> -->
 
@@ -136,61 +169,94 @@
             <div class="modal fade" id="modal2" style="margin-top: 10vh;">
                 <div class="modal-dialog modal-dialog">
                     <div class="modal-content" style="background-color: rgb(14, 14, 90); color: #fff; border-radius: 30px;">
-                        <div class="text-center mt-3">
-                            <div class="d-flex justify-content-between mx-auto"><h4 class="text-center align-content-center justify-content-between my-4" style="margin-left: 35%;"><b>SELECT ITEMS</b></h4>
-                                <br><button class="btn-close mr-2" data-bs-dismiss="modal" style="background-color: #ee1a3d; color: whitesmoke;"></button>
+                        <div class="text-center mt-3" style="border-bottom: 2px solid snow; padding-bottom: 10px;">
+                            <div class="d-flex justify-content-between mx-auto"><h4 class="text-center align-content-center justify-content-between my-4" style="margin-left: 35%;"><b >SELECT ITEMS</b></h4>
+                                <br><button class="btn-close mr-2 p-2 mr-3" data-bs-dismiss="modal" style="background-color: red; color: whitesmoke;"></button>
                             </div>
                             <!-- <p style="border-bottom: 2px solid snow; padding-bottom: 20px;">Sign in your user ID  to access the solar market</p> -->
                         </div>
                         
-                        <form class="mt-0 mx-auto justify-content-center" action="input">
-                            <div class="row mt-5" id="input">
-                                <div id="flex1">
-                                    <div class="col-md-3">
-                                        <label for="firstName">Enter First Name:</label>
-                                        <input type="text" class="form-control" name="firstName" id="firstName">
-                                    </div>
-                                    <div class="col-md-3">
-                                        <label for="lastName">Enter Last Name:</label>
-                                        <input type="text" class="form-control" name="lastName" id="lastName">
-                                    </div>
-                    
-                                </div>
-                                    <div id="flex2">
-                                        
-                                        <div class="col-md-3">
-                                            <label for="email">Enter Email:</label>
-                                            <input type="email" class="form-control" name="email" id="email">
-                                        </div>
-                                        <!-- <div class="col-md-3">
-                                            <label for="age">Select DOB:</label>
-                                            <input type="number" class="form-control" name="age" id="age">
-                                            <input type="date" class="form-control" onclick="this.innerHTML=Date()" name="birthday" id="age">
-                                        </div> -->
-                                        <div class="col-md-3">
-                                            <label for="gender">Select Gender:</label>
-                                            <!-- <input type="gender" class="form-control" name="" id="gender"> -->
-                                            <select class="gender" name="gender" id="gender">
-                                                <option value="select">--------</option>
-                                                <option value="Male">Male</option>
-                                                <option value="Female">Female</option>
-                                                <option value="Others" contenteditable="">Others</option>
+                        <form class="mt-0 justify-content-between" action="input">
+                            <div class="row mt-4" id="input">
+     
+     <div class="d-flex mx-auto justify-content-between my-3">
+         <label class="ml-5" for="items"><b>ITEMS:</b></label>
+                                            <!-- <input type="text" class="form-control" name="firstName" id="firstName" style="width: 100%;"> -->
+                                            <select  class="rounded-5 px-3" name="items" id="items" style="width: 50%;">
+                                                <option value="-----">----</option>
+                                                <option value="AIR CONDITION">Air Condition</option>
+                                                <option value="BULB">Bulb</option>
+                                                <option value="ELECTRIC COOKER">Electric Cooker</option>
+                                                <option value="FAN">Fan</option>
+                                                <option value="FRIDGE">Fridge</option>
+                                                <option value="IRON">Iron</option>
+                                                <option value="OVEN">Oven</option>
+                                                <option value="TELEVISION">Television</option>
+                                                <option value="others">Others</option>
                                             </select>
-                                        </div>
+        
+     </div>                           
+     
+     <div class="d-flex mx-auto justify-content-between my-3">
+         <label class="ml-5" for="quality"><b>QUALITY:</b></label>
+         <select class="rounded-5 px-3" name="quality" id="quality" style="width: 50%;">
+            <option value="-----">----</option>
+            <option value="BASIC">Basic</option>
+            <option value="PREMIMUM">Premimum</option>
+        </select>
+        
+     </div> 
+
+     <!-- <div class="d-flex mx-auto justify-content-between my-3">
+         <label class="mx-auto" for="quality"><b>POWER-RATING:</b></label> -->
+         <!-- <input class="rounded-5" name="items" type="input" id="powerRating" style="width: 50%;">
+
+
+
+        <label class="mx-auto" for="powerRating"><b>POWER-RATING:</b></label>
+            <div class="input-group input-group-lg rounded-5">
+                <div class="input-group-text">$</div>
+                <input class="form-control" type="number" name="items" id="powerRating" style="width: 50%;">
+                <div class="input-group-text" style="height: 84%;">Watt</div>
+                <input class="form-control" id="text4" type="number">
+                <button class="btn btn-primary">+</button>
+                
+            </div>
+        
+     </div>  -->
+
+     <div class="d-flex mx-auto justify-content-between my-3">
+        <label class="ml-5" for="powerRating"><b>POWER-RATING:</b></label>
+                                            <!-- <input type="number" class="form-control rounded-5" name="powerRating" id="powerRating" style="width: 50%;"> -->
+
+                                            <!-- <input class="form-control" id="text3" type="number">
+                <div class="input-group-text">watt</div> -->
+                <div class="input-group rounded-5" style="width: 50%;">
+                    <input class="form-control" id="powerRating" type="number">
+                    <select class="input-group-text">
+                        <option value="kW">kW</option>
+                        <option value="volt">volt</option>
+                        <option value="watt">watt</option>
+                    </select>
+                </div>
+        
+     </div>    
+     
+     <div class="d-flex mx-auto justify-content-between my-3">
+        <label class="ml-5" for="quality"><b>QUANTITY:</b></label>
+        <input type="number" class="rounded-5 px-3" name="quantity" id="quantity" placeholder="Input number of items" style="width: 50%;">
+       
+    </div>                        
                                     </div>
-                    
-                                    
-                                    
-                                    <div id="add" class="row mt-5">
-                                        <div class="col-md-12 text-center">
-                                            <button  type="button" id="btn-data" class="btn btn-success" style="background-color: green;" onclick="addOnClick()"><i class="las la-plus"></i> Add</button>
+                                        
+                                        <div id="add" class="row mt-5">
+                                            <div class="col-md-12 text-center">
+                                                <button  type="button" id="btn-data" class="btn btn-success bg-success mb-3" style="background-color: blue;" onclick="addOnClick()"><i class="fa fa-plus"></i> Add</button>
+                                            </div>
                                         </div>
-                                    </div>
-                            </div>
-                            
                         </form>
                         <!-- <button class="btn-login px-5 py-2 my-4 mx-auto" type="login"><b>Login</b></button> -->
-                        <div class="d-flex mx-auto mb-2"><p>Don't have an account?<p style="visibility: hidden;">_</p><h6><a href="#" style="color: #fff;">Sign Up</a></h6></p></div>
+                        <!-- <div class="d-flex mx-auto mb-2"><p>Don't have an account?<p style="visibility: hidden;">_</p><h6><a href="#" style="color: #fff;">Sign Up</a></h6></p></div> -->
                     </div>
                 </div>
             </div>
@@ -208,7 +274,7 @@
     </header>
     
    <!-- PORTFOLIO -->
-   <section class="portfolio align-content-center justify-content-center p-2 p-lg-5">
+   <!-- <section class="portfolio align-content-center justify-content-center p-2 p-lg-5">
     <div class="p-4">
         <div><h6 class="mx-auto mb-3 font-weight-bold" style="font-size: large; text-align: center; color: rgb(15, 15, 145);">Below are the success stories with photos and case studies to see how solar power systems are been installed.</h6></div>
 
@@ -216,7 +282,7 @@
 
     </div>
 
-</section>
+</section> -->
 <!-- //PORTFOLIO -->
 
 
