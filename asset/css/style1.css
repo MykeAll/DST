@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Changa+One:ital@1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Changa&family=Changa+One:ital@1&family=Roboto+Serif:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Changa', sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
+/* font-family: 'Changa One', cursive; */
+    padding: 0;
+    margin: 0;
+}
+
+.main-parent {
+    align-items: center;
+    background-image: url(/image/LPobj2.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-parent .form-wrap {
+    background: rgb(255 255 255/75%);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    padding: 35px 40px;
+    width: 450px;
+}
+
+.main-parent .form-wrap h1 {
+    font-size: 40px;
+    font-variant: small-caps;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main-parent .form-wrap h1 span {
+    /* color: #f57224; */
+    color: rgb(37, 37, 124);
+}
+
+.main-parent .form-wrap .single-input input {
+    background-color: transparent;
+    border: 2px solid rgba(0,0,0,0.352);
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    padding: 14px 10px;
+    width: 100%;
+}
+
+.Submit-button {
+    text-align: center;
+}
+
+.Submit-button button {
+    background-color: rgb(37, 37, 124);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    outline: none;
+    padding: 13px 30px;
+}
+
+.account-have {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.account-have a {
+    color: rgb;
+    text-decoration: none;
+}

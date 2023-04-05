@@ -38,7 +38,7 @@ function displayTableData() {
         html+="</thead>";
         for ( var i = 0; i < nameData.length; i++) {
             var sno=i+1;
-            html+="<tr style='background-color: #fff; border-bottom: 2px solid #000;'>";
+            html+="<tr style='table-striped-danger w-auto border-bottom: 2px solid #000;'>";
             html+="<td  style='border-right: 2px solid #000;'>" + sno + "</td>";
             html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].items + "</td>";
             html+="<td  style='border-right: 2px solid #000;'>" + nameData[i].quality + "</td>";

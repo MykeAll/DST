@@ -12,10 +12,10 @@
 
 /* HEADER */
 .head {
-    background-color: rgb(194, 206, 212);
+    background-color: rgb(165, 194, 209);
     background-size: cover;
     background-repeat: no-repeat;
-    /* width: 100%; */
+    border-bottom: 4px solid rgb(9, 9, 82);
     color: #fff;
     /* width: 100%; */
     /* height: 100vh; */
@@ -147,17 +147,24 @@ li a {
 
 
 /* TABLE */
-.table {
+.container1 {
+    background-color: #fff;
     justify-content: center;
+    align-content: center;
 }
 /* //TABLE */
 
 
-/* SERVICES */
-.services {
-    background-color: rgba(224, 223, 223, 0.973);
+/* SUMMARY */
+.summary {
+    background-color: rgb(165, 194, 209);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* border-bottom: 4px solid rgb(9, 9, 82); */
+    color: #fff;
     width: 100%;
-    /* height: 100%; */
+    /* height: 100vh; */
+    position: relative;
     border-bottom: 7px solid rgb(7, 7, 63);
 }
 
@@ -175,12 +182,12 @@ li a {
     transform: scaleX(110%);
 }
 
-/* //SERVICES */
+/* //SUMMARY */
 
 
 /* ABOUT US */
 .about {
-    background-color: rgba(224, 223, 223, 0.973);
+    /* background-color: rgba(224, 223, 223, 0.973); */
     width: 100%;
     /* height: 100%; */
 }
@@ -233,33 +240,9 @@ li a {
 /* //ABOUT US */
 
 
-/* PORTFOLIO */
-.portfolio {
-    background-color: rgba(53, 50, 50, 0.973);
-    /* width: 100vw; */
-    /* height: 100%; */
-}
-
-.view {
-    background-color: #fff;
-    border-radius: 10px;
-    border: 2px solid rgb(10, 10, 61);
-    color: rgb(31, 31, 39);
-    font-weight: 700;
-    width: 14%;
-}
-
-.view:hover {
-    transition: 1s ease;
-    transform: scaleX(110%);
-}
-
-/* //PORTFOLIO */
-
-
 /* OBJECTIVE */
 .objective {
-    background-color: rgba(224, 223, 223, 0.973);
+    /* background-color: rgba(224, 223, 223, 0.973); */
     width: 100%;
     /* height: 100%; */
     /* border-bottom: 7px solid rgb(7, 7, 63); */
@@ -286,7 +269,7 @@ li a {
 
 /* CONTACT US */
 .contact {
-    background-color: rgba(110, 109, 109, 0.973);
+    /* background-color: rgba(110, 109, 109, 0.973); */
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     color: #fff;

@@ -149,8 +149,8 @@ li a {
 }
 
 .sol:hover {
-    border: 2px solid black;
-    box-shadow: 4px 4px 4px black;
+    /* border: 2px solid black;
+    box-shadow: 4px 4px 4px black; */
     transition: 1s ease;
     transform: scaleX(110%);
 }
