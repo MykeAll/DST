@@ -93,7 +93,7 @@
             <div class="head justify-content-center mx-auto pt-5">
                 <div class="py-5 justify-content-between px-4">
 
-                    <form action="input" class="location col-lg-12 mx-auto align-content-center justify-content-between">
+                    <form action="input" class="location col-lg-12 mx-auto align-content-center justify-content-between" style="margin-top: 10%;">
                     <label for="input" class="mr-lg-5 text-dark">
                         <b>NAME</b>
                         <br>
@@ -160,8 +160,8 @@
 
                 </form>
                 <!-- TABLE -->
-                <div class="container1 table-responsive text-nowrap mt-4 justify-content-center text-center align-content-center" style="width: 100vw;">
-                    <div class="table table-striped mb-3" id="table"></div>
+                <div class="container1 table-responsive text-nowrap mt-4 justify-content-center text-center align-content-center">
+                    <div class="table table-striped mb-3 mx-auto px-3" id="table"></div>
                 </div>
                     <!-- <button class="btn px-lg-3 mb-md-5"><a class="btn" href="#">Register Now</a></button> -->
 
@@ -181,8 +181,9 @@
      
      <div class="d-flex mx-auto justify-content-between my-3">
          <label class="ml-5" for="items"><b>ITEMS:</b></label>
+         <input type="text" class="rounded-2 px-3" name="items" id="items" placeholder="Enter items" style="text-transform: uppercase; width: 50%;">
                                             <!-- <input type="text" class="form-control" name="firstName" id="firstName" style="width: 100%;"> -->
-                                            <select  class="rounded-5 px-3" name="items" id="items" style="width: 50%;">
+                                            <!-- <select  class="rounded-5 px-3" name="items" id="items" style="width: 50%;">
                                                 <option value="-----">----</option>
                                                 <option value="AIR CONDITION">Air Condition</option>
                                                 <option value="BULB">Bulb</option>
@@ -193,19 +194,20 @@
                                                 <option value="OVEN">Oven</option>
                                                 <option value="TELEVISION">Television</option>
                                                 <option value="others">Others</option>
-                                            </select>
+                                            </select> -->
         
      </div>                           
      
-     <div class="d-flex mx-auto justify-content-between my-3">
+     <!-- <div class="d-flex mx-auto justify-content-between my-3">
          <label class="ml-5" for="quality"><b>QUALITY:</b></label>
+         <input type="text" class="rounded-2 px-3" name="quantity" id="quantity" placeholder="Input number of items" style="width: 50%;">
          <select class="rounded-5 px-3" name="quality" id="quality" style="width: 50%;">
             <option value="-----">----</option>
             <option value="BASIC">Basic</option>
             <option value="PREMIMUM">Premimum</option>
         </select>
         
-     </div> 
+     </div>  -->
 
      <!-- <div class="d-flex mx-auto justify-content-between my-3">
          <label class="mx-auto" for="quality"><b>POWER-RATING:</b></label> -->
@@ -233,7 +235,7 @@
                 <div class="input-group-text">watt</div> -->
                 <div class="input-group rounded-5" style="width: 50%;">
                     <input class="form-control" id="powerRating" type="number">
-                    <select class="input-group-text">
+                    <select class="input-group-text" id="power">
                         <option value="kW">kW</option>
                         <option value="volt">volt</option>
                         <option value="watt">watt</option>
@@ -244,7 +246,7 @@
      
      <div class="d-flex mx-auto justify-content-between my-3">
         <label class="ml-5" for="quality"><b>QUANTITY:</b></label>
-        <input type="number" class="rounded-5 px-3" name="quantity" id="quantity" placeholder="Input number of items" style="width: 50%;">
+        <input type="number" class="rounded-2 px-3" name="quantity" id="quantity" placeholder="Input number of items" style="width: 50%;">
        
     </div>                        
                                     </div>
@@ -280,36 +282,36 @@
 
         <div class="sum" style="font-size: small; color: #000;">
             <div class="sum1 d-flex">
-                <h5>QUANTITY =</h5>
+                <h5>QUANTITY = <span id="quant"></span></h5>
                 <!-- <h4>=</h4> -->
                 <div class="ans"></div>
 
             </div>
             <div class="sum2 d-flex">
-                <h5>POWER-RATING =</h5>
+                <h5>POWER-RATING = <span id="rate"></span></h5>
                 <!-- <h4>=</h4> -->
-                <div class="ans"></div>
+                
 
             </div>
             <div class="sum3 d-flex">
-                <h5>TOTAL ENERGY (Q*C) =</h5>
+                <h5>TOTAL ENERGY (Q*C) = <span id="energy"></span></h5>
                 <!-- <h4>=</h4> -->
-                <div class="ans"></div>
+                <!-- <div class="ans"></div> -->
 
             </div>
-            <div class="sum4 d-flex">
+            <div class="sum4 d-flex" id="cost">
                 <h5>COST =</h5>
                 <!-- <h4>=</h4> -->
                 <div class="ans"></div>
 
             </div>
-            <div class="sum5 d-flex">
+            <div class="sum5 d-flex" id="tCost">
                 <h5>TOTAL COST FOR ITEMS =</h5>
                 <!-- <h4>=</h4> -->
                 <div class="ans"></div>
 
             </div>
-            <div class="sum6 d-flex">
+            <div class="sum6 d-flex" id="work">
                 <h5>WORKMANSHIP =</h5>
                 <!-- <h4>=</h4> -->
                 <div class="ans"></div>

@@ -55,7 +55,7 @@ login.onclick = (e) => {
 
     // cautch the value which is type user login page
     const emailAddress = document.getElementById("Email").value;
-    const passWord = document.getElementById("password").value;
+    const passWord = document.getElementById("pass").value;
 
     // let's get value in localStorage which store user in registration form
     const Email =  localStorage.getItem("Email");
