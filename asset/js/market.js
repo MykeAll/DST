@@ -16,7 +16,7 @@ var nameData = [
 ];
 */
 
-let nameData = JSON.parse(localStorage.getItem('locateData'))  || []
+let nameData = JSON.parse(localStorage.getItem('locateData')) || []
 
 /*
 var a = Data()
@@ -28,7 +28,7 @@ document.getElementById('substract()').innerHTML = substract();
 */
 
 function displayTableData() {
-    var html = "<table border= '1/2 class='table'>";
+    let html = "<table border= '1/2 class='table'>";
     setTimeout(() => {
         html+="<thead style=' background-color: gray; color: #000; border-bottom: 2px solid #000;'>";
         html+="<tr>";
@@ -65,11 +65,11 @@ displayTableData();
 document.value
 
 function addOnClick() {
-    var items = document.getElementById('items').value;
+    let items = document.getElementById('items').value;
     // var quality = document.getElementById('quality').value;
-    var powerRating = document.getElementById('powerRating').value;
+    let powerRating = document.getElementById('powerRating').value;
     // var age = document.getElementById('age').value;
-    var quantity = document.getElementById('quantity').value;
+    let quantity = document.getElementById('quantity').value;
 
     if(items && powerRating && quantity) {
         let id = nameData.length +1;
@@ -91,21 +91,25 @@ document.getElementById('items').value=""
 }
 
 function removeItem(rec) {
-    console.log(rec);
+    console.log(rec, '..rec');
+    let Data = JSON.parse(localStorage.getItem('locateData')) || []
+    console.log(Data, 'data..');
 
-    var filt = nameData.filter((a,i)=>{
+    let filt = nameData.filter((a,i)=>{
         if(rec == a.id){
-            nameData.splice(i,1);
+            let filtered = nameData.splice(i,1)
+            console.log(filtered, '..filtered');
             displayTableData();
         }
     })
-    console.log(nameData);
+    console.log(nameData, '2nd data instance');
+    window.localStorage.setItem("locateData", JSON.stringify(nameData))
 }
 
 function updateItem(rec) {
     console.log(rec);
 
-    var filt = nameData.filter((a,i)=>{
+    let filt = nameData.filter((a,i)=>{
         if(rec == a.id){
             document.getElementById('items').value=a.items
     // document.getElementById('quality').value=a.quality
@@ -152,16 +156,16 @@ function calculate() {
     })
     console.log(typeof(totalPowered))
 
-    var quant = document.getElementById('quant')
+    let quant = document.getElementById('quant')
     quant.innerHTML = totalQuantity
     // quant.append(totalQuantity)
-    var rate = document.getElementById('rate')
+    let rate = document.getElementById('rate')
     rate.innerHTML = totalPowered
     // power.append(totalQuantity)
-    var energy = document.getElementById('energy')
-    // power.innerHTML = totalPowered
-    energy.append(totalQuantity * totalPowered)
-    var cost = document.getElementById('cost')
-    var tCost = document.getElementById('tCost')
-    var work = document.getElementById('work')
+    let energy = document.getElementById('energy')
+    energy.innerHTML = totalQuantity * totalPowered
+    // energy.append(totalQuantity * totalPowered)
+    let cost = document.getElementById('cost')
+    let tCost = document.getElementById('tCost')
+    let work = document.getElementById('work')
 }
